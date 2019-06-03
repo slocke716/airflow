@@ -22,6 +22,7 @@ from __future__ import print_function
 import datetime
 import os
 import unittest
+from unittest import mock
 import nose
 
 from airflow import DAG, configuration
